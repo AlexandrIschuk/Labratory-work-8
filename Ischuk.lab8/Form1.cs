@@ -21,25 +21,23 @@ namespace Ischuk.lab8
             InitB();
             TicTac.Random2DArray(Arr2D, 4, 4);
             Sorting.Copy(arr, arr1);
-            Miner.RandomArr(arr2);
-            Miner.ArrZeroOpen(arr3, arr2);
-            textBox19.Text = Miner.MineCount1(arr3);
+            Miner.RandomArr();
+            Miner.ArrZeroOpen();
+            textBox19.Text = Miner.MineCount1();
+            Miner.MineCount();
         }
-        bool start = false;
-        bool EndGame = false;
+        static bool start = false;
         int timer2 = 0;
         string SecondStr = "";
-        string timeend = "";
         int count = 0;
         int Count1 = 0;
         int i = 0; 
-        int sum = 0;
         char[,] Arr2D = new char[4, 4];
         int[] arr = new int[0];
         int[] arr1 = new int[0];
         int[,] arr2 = new int[10, 10];
-        int[,] arr3 = new int[10, 10];
         private Button[,] S = new Button[10, 10];
+        public static double Mcount = Miner.MineCount();
 
 
         public void InitB()
@@ -59,138 +57,12 @@ namespace Ischuk.lab8
 
                 }
         }
-        public static Image NumFile(int i)
-        {
-            Image img = Ischuk.lab8.Properties.Resources.opened;
-            if (i == 0)
-                img = Ischuk.lab8.Properties.Resources.zero;
-            else if (i == 1)
-                img = Ischuk.lab8.Properties.Resources.num1;
-            else if (i == 2)
-                img = Ischuk.lab8.Properties.Resources.num2;
-            else if (i == 3)
-                img = Ischuk.lab8.Properties.Resources.num3;
-            else if (i == 4)
-                img = Ischuk.lab8.Properties.Resources.num4;
-            else if (i == 5)
-                img = Ischuk.lab8.Properties.Resources.num5;
-            else if (i == 6)
-                img = Ischuk.lab8.Properties.Resources.num6;
-            else if (i == 7)
-                img = Ischuk.lab8.Properties.Resources.num7;
-            else if (i == 8)
-                img = Ischuk.lab8.Properties.Resources.num8;
-            return img;
-        }
-        public bool GameFunction2(int[,] arr, Button[,] S, int n, int m)
-
-        {
-            string read = "";
-            if (arr[n, m] == 0 & n != 0 & m != 0 & m != 9 & n != 9)
-            {
-                S[n, m].BackgroundImage = NumFile(arr[n, m]);
-                S[n + 1, m].BackgroundImage = NumFile(arr[n + 1, m]);
-                S[n, m + 1].BackgroundImage = NumFile(arr[n, m + 1]);
-                S[n - 1, m].BackgroundImage = NumFile(arr[n - 1, m]);
-                S[n, m - 1].BackgroundImage = NumFile(arr[n, m - 1]);
-                S[n + 1, m + 1].BackgroundImage = NumFile(arr[n + 1, m + 1]);
-                S[n - 1, m - 1].BackgroundImage = NumFile(arr[n - 1, m - 1]);
-                S[n - 1, m + 1].BackgroundImage = NumFile(arr[n - 1, m + 1]);
-                S[n + 1, m - 1].BackgroundImage = NumFile(arr[n + 1, m - 1]);
-            }
-            else if (arr[n, m] == 0 & n == 0 & m == 0)
-            {
-                S[n, m].BackgroundImage = NumFile(arr[n, m]);
-                S[n + 1, m].BackgroundImage = NumFile(arr[n + 1, m]);
-                S[n, m + 1].BackgroundImage = NumFile(arr[n, m + 1]);
-                S[n + 1, m + 1].BackgroundImage = NumFile(arr[n + 1, m + 1]);
-
-            }
-            else if (arr[n, m] == 0 & n == 9 & m == 9)
-            {
-                S[n, m].BackgroundImage = NumFile(arr[n, m]);
-                S[n - 1, m].BackgroundImage = NumFile(arr[n - 1, m]);
-                S[n, m - 1].BackgroundImage = NumFile(arr[n, m - 1]);
-                S[n - 1, m - 1].BackgroundImage = NumFile(arr[n - 1, m - 1]);
-            }
-            else if (arr[n, m] == 0 & n == 0 & m == 9)
-            {
-                S[n, m].BackgroundImage = NumFile(arr[n, m]);
-                S[n + 1, m].BackgroundImage = NumFile(arr[n + 1, m]);
-                S[n, m - 1].BackgroundImage = NumFile(arr[n, m - 1]);
-                S[n + 1, m - 1].BackgroundImage = NumFile(arr[n + 1, m - 1]);
-            }
-            else if (arr[n, m] == 0 & n == 9 & m == 0)
-            {
-                S[n, m].BackgroundImage = NumFile(arr[n, m]);
-                S[n, m + 1].BackgroundImage = NumFile(arr[n, m + 1]);
-                S[n - 1, m].BackgroundImage = NumFile(arr[n - 1, m]);
-                S[n - 1, m + 1].BackgroundImage = NumFile(arr[n - 1, m + 1]);
-            }
-            else if (arr[n, m] == 0 & n == 0)
-            {
-                S[n, m].BackgroundImage = NumFile(arr[n, m]);
-                S[n + 1, m].BackgroundImage = NumFile(arr[n + 1, m]);
-                S[n, m + 1].BackgroundImage = NumFile(arr[n, m + 1]);
-                S[n, m - 1].BackgroundImage = NumFile(arr[n, m - 1]);
-                S[n + 1, m + 1].BackgroundImage = NumFile(arr[n + 1, m + 1]);
-                S[n + 1, m - 1].BackgroundImage = NumFile(arr[n + 1, m - 1]);
-            }
-            else if (arr[n, m] == 0 & n == 9)
-            {
-                S[n, m].BackgroundImage = NumFile(arr[n, m]);
-                S[n, m + 1].BackgroundImage = NumFile(arr[n, m + 1]);
-                S[n - 1, m].BackgroundImage = NumFile(arr[n - 1, m]);
-                S[n, m - 1].BackgroundImage = NumFile(arr[n, m - 1]);
-                S[n - 1, m - 1].BackgroundImage = NumFile(arr[n - 1, m - 1]);
-                S[n - 1, m + 1].BackgroundImage = NumFile(arr[n - 1, m + 1]);
-            }
-            else if (arr[n, m] == 0 & m == 0)
-            {
-                S[n, m].BackgroundImage = NumFile(arr[n, m]);
-                S[n + 1, m].BackgroundImage = NumFile(arr[n + 1, m]);
-                S[n, m + 1].BackgroundImage = NumFile(arr[n, m + 1]);
-                S[n - 1, m].BackgroundImage = NumFile(arr[n - 1, m]);
-                S[n + 1, m + 1].BackgroundImage = NumFile(arr[n + 1, m + 1]);
-                S[n - 1, m + 1].BackgroundImage = NumFile(arr[n - 1, m + 1]);
-            }
-            else if (arr[n, m] == 0 & m == 9)
-            {
-                S[n, m].BackgroundImage = NumFile(arr[n, m]);
-                S[n + 1, m].BackgroundImage = NumFile(arr[n + 1, m]);
-                S[n - 1, m].BackgroundImage = NumFile(arr[n - 1, m]);
-                S[n, m - 1].BackgroundImage = NumFile(arr[n, m - 1]);
-                S[n - 1, m - 1].BackgroundImage = NumFile(arr[n - 1, m - 1]);
-                S[n + 1, m - 1].BackgroundImage = NumFile(arr[n + 1, m - 1]);
-            }
-            S[n, m].BackgroundImage = NumFile(arr[n, m]);
-            if (arr[n, m] == 9)
-            {
-                EndGame = true;
-                StopWatch();
-                MinerRestart.BackgroundImage = Ischuk.lab8.Properties.Resources.MinerRes;
-                textBox21.Text = "Вы проиграли." + "\r\nВремя игры: " + timeend + " секунд.";
-                for (int i = 0; i < 10; ++i)
-                    for (int j = 0; j < 10; ++j)
-                    {
-                        if (arr[i, j] == 9)
-                        {
-                            S[i, j].BackgroundImage = Ischuk.lab8.Properties.Resources.bomb;
-                        }
-                    }
-                S[n, m].BackgroundImage = Ischuk.lab8.Properties.Resources.bombed;
-
-            }
-            return EndGame;
-
-
-        }
         void StartWatch()
         {
             start = true;
             timer1();
         }
-        void StopWatch()
+        public static void StopWatch()
         {
             start = false;
         }
@@ -203,24 +75,6 @@ namespace Ischuk.lab8
             timer.Tick += new EventHandler(TickTimer);
             timer.Start();
         }
-        void FlagCount()
-        {
-            for (int i = 0; i < 10; ++i)
-                for (int j = 0; j < 10; ++j)
-                    if (arr3[i, j] == 10)
-                    {
-                        sum++;
-                    }
-        }
-        void Winner()
-        {
-            if (sum == Miner.MineCount(arr3))
-            {
-                textBox21.Text = "Вы победили." + "\r\nВремя игры: " + timeend + " секунд.";
-                EndGame = true;
-                StopWatch();
-            }
-        }
         private void TickTimer(object sender, EventArgs e)
         {
             long Tick = DateTime.Now.Ticks - date.Ticks;
@@ -229,7 +83,7 @@ namespace Ischuk.lab8
             if (start)
             {
                 label1.Text = "0" + string.Format("{00:ss}", stopWatch);
-                timeend = string.Format("{0:ss}", stopWatch).ToString();
+                Miner.timeend = string.Format("{0:ss}", stopWatch).ToString();
             }
         }
         private void buttonCount_Click(object sender, EventArgs e)
@@ -655,10 +509,10 @@ namespace Ischuk.lab8
             }
 
         }
-        void Button1_Click(object sender, EventArgs e)
+        public void Button1_Click(object sender, EventArgs e)
         {
             
-            if (!EndGame)
+            if (!Miner.EndGame)
             {
                 if (timer2 == 0)
                 {
@@ -670,9 +524,11 @@ namespace Ischuk.lab8
                     {
                         if (sender == S[i, j])
                         {
-                            GameFunction2(arr3, S, i, j);
-                            arr3[i, j] = 0;
-                            S[i, j].Enabled = false;
+                            Miner.GameFunction2(S, i, j,textBox21,MinerRestart);
+                            if (Miner.arr[i, j] < 10)
+                            {
+                                S[i, j].Enabled = false;
+                            }
                         }
                     }
             }
@@ -685,7 +541,7 @@ namespace Ischuk.lab8
         }
         private void Button1_MouseUp(object sender, MouseEventArgs e)
         {
-            if (!EndGame)
+            if (!Miner.EndGame)
             {
                 if (e.Button == MouseButtons.Right)
                 {
@@ -699,9 +555,20 @@ namespace Ischuk.lab8
                         {
                             if (sender == S[i, j])
                             {
-                                S[i, j].BackgroundImage = Ischuk.lab8.Properties.Resources.flaged;
-                                arr3[i, j] = 10;
-                                Winner();
+                                if (Miner.arr[i, j]>=10)
+                                {
+                                    S[i, j].BackgroundImage = Ischuk.lab8.Properties.Resources.closed;
+                                    Miner.arr[i, j] = Miner.arr[i, j] - 10;
+                                    Miner.FlagCount();
+                                    Miner.Winner(textBox21);
+                                }
+                                else
+                                {
+                                    S[i, j].BackgroundImage = Ischuk.lab8.Properties.Resources.flaged;
+                                    Miner.arr[i, j] = Miner.arr[i, j] + 10; 
+                                    Miner.FlagCount();
+                                    Miner.Winner(textBox21);
+                                }
                             }
                         }
                 }
@@ -718,12 +585,13 @@ namespace Ischuk.lab8
         {
             textBox21.Text = "";
             label1.Text = "000";
-            EndGame = false;
+            Miner.EndGame = false;
             timer2 = 0;
+            Miner.sum = 0;
             MinerRestart.BackgroundImage = Ischuk.lab8.Properties.Resources.MineRes2;
-            Miner.RandomArr(arr2);
-            Miner.ArrZeroOpen(arr3, arr2);
-            textBox19.Text = Miner.MineCount1(arr3);
+            Miner.RandomArr();
+            Miner.ArrZeroOpen();
+            textBox19.Text = Miner.MineCount1();
             for (int i = 0; i < 10; ++i)
                 for (int j = 0; j < 10; ++j)
                 {
