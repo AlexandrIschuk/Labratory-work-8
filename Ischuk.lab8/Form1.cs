@@ -175,9 +175,11 @@ namespace Ischuk.lab8
                     {
                         if (arr[i, j] == 9)
                         {
-                            S[i, j].BackgroundImage = Ischuk.lab8.Properties.Resources.bombed;
+                            S[i, j].BackgroundImage = Ischuk.lab8.Properties.Resources.bomb;
                         }
                     }
+                S[n, m].BackgroundImage = Ischuk.lab8.Properties.Resources.bombed;
+
             }
             return EndGame;
 
