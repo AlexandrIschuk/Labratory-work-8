@@ -154,7 +154,7 @@
             // 
             // buttonFunDel
             // 
-            this.buttonFunDel.Location = new System.Drawing.Point(505, 518);
+            this.buttonFunDel.Location = new System.Drawing.Point(505, 514);
             this.buttonFunDel.Name = "buttonFunDel";
             this.buttonFunDel.Size = new System.Drawing.Size(179, 34);
             this.buttonFunDel.TabIndex = 10;
@@ -246,13 +246,13 @@
             // 
             this.buttonCount.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.buttonCount.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.buttonCount.Location = new System.Drawing.Point(533, 456);
+            this.buttonCount.Location = new System.Drawing.Point(543, 456);
             this.buttonCount.Name = "buttonCount";
             this.buttonCount.Size = new System.Drawing.Size(112, 34);
             this.buttonCount.TabIndex = 1;
             this.buttonCount.Text = "Считать\r\n";
             this.buttonCount.UseVisualStyleBackColor = true;
-            this.buttonCount.Click += new System.EventHandler(this.buttonFunDel_Click);
+            this.buttonCount.Click += new System.EventHandler(this.buttonCount_Click);
             // 
             // pictureBoxFun1
             // 

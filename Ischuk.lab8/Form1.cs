@@ -600,6 +600,5 @@ namespace Ischuk.lab8
                 }
         }
 
-
     }
 }
