@@ -124,9 +124,6 @@
   <data name="x" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="gorod_solntse_zakat_143693_3840x2160" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\gorod_solntse_zakat_143693_3840x2160.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="pngwing.com" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pngwing.com.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -160,9 +157,6 @@
   <data name="num2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\num2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="gorod_vektor_art_142453_3840x2160" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\gorod_vektor_art_142453_3840x2160.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="o" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\o.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -175,9 +169,6 @@
   <data name="flaged" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\flaged.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="gorod_vektor_panorama_119914_3840x2160" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\gorod_vektor_panorama_119914_3840x21601.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="num4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\num4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -187,10 +178,25 @@
   <data name="num7" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\num7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="imgonline_com_ua_Mirror_r5YWRHgVAjZw1mX" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\imgonline-com-ua-Mirror-r5YWRHgVAjZw1mX.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Screenshot_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Screenshot_7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="material_design_material_design_colors_abstract_wallpaper__1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\material-design-material-design-colors-abstract-wallpaper--1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="material_design_material_design_colors_abstract_wallpaper__2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\material-design-material-design-colors-abstract-wallpaper--2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="material_design_material_design_colors_abstract_wallpaper__4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\material-design-material-design-colors-abstract-wallpaper--4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="material_wallpaper_design_abstract_material_design_colors_4k" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\material-wallpaper-design-abstract-material-design-colors-4k.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="material_wallpaper_design_abstract_material_design_colors__1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\material-wallpaper-design-abstract-material-design-colors--1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="material_wallpaper_design_abstract_material_design_colors__4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\material-wallpaper-design-abstract-material-design-colors--4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

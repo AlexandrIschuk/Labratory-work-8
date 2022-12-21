@@ -277,7 +277,7 @@
             this.pictureBoxFun1.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
             this.pictureBoxFun1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBoxFun1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxFun1.Image")));
-            this.pictureBoxFun1.Location = new System.Drawing.Point(463, 81);
+            this.pictureBoxFun1.Location = new System.Drawing.Point(462, 20);
             this.pictureBoxFun1.Name = "pictureBoxFun1";
             this.pictureBoxFun1.Size = new System.Drawing.Size(323, 128);
             this.pictureBoxFun1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;

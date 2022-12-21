@@ -103,9 +103,9 @@ namespace Ischuk.lab8.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap gorod_solntse_zakat_143693_3840x2160 {
+        internal static System.Drawing.Bitmap material_design_material_design_colors_abstract_wallpaper__1 {
             get {
-                object obj = ResourceManager.GetObject("gorod_solntse_zakat_143693_3840x2160", resourceCulture);
+                object obj = ResourceManager.GetObject("material_design_material_design_colors_abstract_wallpaper__1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -113,9 +113,9 @@ namespace Ischuk.lab8.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap gorod_vektor_art_142453_3840x2160 {
+        internal static System.Drawing.Bitmap material_design_material_design_colors_abstract_wallpaper__2 {
             get {
-                object obj = ResourceManager.GetObject("gorod_vektor_art_142453_3840x2160", resourceCulture);
+                object obj = ResourceManager.GetObject("material_design_material_design_colors_abstract_wallpaper__2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -123,9 +123,9 @@ namespace Ischuk.lab8.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap gorod_vektor_panorama_119914_3840x2160 {
+        internal static System.Drawing.Bitmap material_design_material_design_colors_abstract_wallpaper__4 {
             get {
-                object obj = ResourceManager.GetObject("gorod_vektor_panorama_119914_3840x2160", resourceCulture);
+                object obj = ResourceManager.GetObject("material_design_material_design_colors_abstract_wallpaper__4", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -133,9 +133,29 @@ namespace Ischuk.lab8.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap imgonline_com_ua_Mirror_r5YWRHgVAjZw1mX {
+        internal static System.Drawing.Bitmap material_wallpaper_design_abstract_material_design_colors__1 {
             get {
-                object obj = ResourceManager.GetObject("imgonline_com_ua_Mirror_r5YWRHgVAjZw1mX", resourceCulture);
+                object obj = ResourceManager.GetObject("material_wallpaper_design_abstract_material_design_colors__1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap material_wallpaper_design_abstract_material_design_colors__4 {
+            get {
+                object obj = ResourceManager.GetObject("material_wallpaper_design_abstract_material_design_colors__4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap material_wallpaper_design_abstract_material_design_colors_4k {
+            get {
+                object obj = ResourceManager.GetObject("material_wallpaper_design_abstract_material_design_colors_4k", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
