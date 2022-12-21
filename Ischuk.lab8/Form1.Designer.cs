@@ -142,7 +142,6 @@
             // 
             this.Уравнение.BackColor = System.Drawing.Color.DarkSlateBlue;
             this.Уравнение.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Уравнение.BackgroundImage")));
-            this.Уравнение.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Уравнение.Controls.Add(this.label17);
             this.Уравнение.Controls.Add(this.label5);
             this.Уравнение.Controls.Add(this.label4);
@@ -289,7 +288,6 @@
             // 
             this.Сортировка.BackColor = System.Drawing.SystemColors.Window;
             this.Сортировка.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Сортировка.BackgroundImage")));
-            this.Сортировка.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Сортировка.Controls.Add(this.label16);
             this.Сортировка.Controls.Add(this.label12);
             this.Сортировка.Controls.Add(this.label11);
@@ -486,7 +484,6 @@
             // 
             this.Игра.BackColor = System.Drawing.SystemColors.Window;
             this.Игра.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Игра.BackgroundImage")));
-            this.Игра.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Игра.Controls.Add(this.label15);
             this.Игра.Controls.Add(this.label14);
             this.Игра.Controls.Add(this.label13);
@@ -672,7 +669,6 @@
             // tabPage1
             // 
             this.tabPage1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tabPage1.BackgroundImage")));
-            this.tabPage1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.tabPage1.Controls.Add(this.label19);
             this.tabPage1.Controls.Add(this.label18);
             this.tabPage1.Controls.Add(this.label1);
@@ -948,7 +944,6 @@
             // 
             this.ОбАвторе.BackColor = System.Drawing.SystemColors.Window;
             this.ОбАвторе.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("ОбАвторе.BackgroundImage")));
-            this.ОбАвторе.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ОбАвторе.Controls.Add(this.label26);
             this.ОбАвторе.Controls.Add(this.label25);
             this.ОбАвторе.Location = new System.Drawing.Point(4, 34);
@@ -962,8 +957,8 @@
             this.label26.AutoSize = true;
             this.label26.BackColor = System.Drawing.Color.Transparent;
             this.label26.Font = new System.Drawing.Font("Segoe UI Black", 28F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label26.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label26.Location = new System.Drawing.Point(44, 28);
+            this.label26.ForeColor = System.Drawing.Color.BurlyWood;
+            this.label26.Location = new System.Drawing.Point(50, 494);
             this.label26.Name = "label26";
             this.label26.Size = new System.Drawing.Size(168, 74);
             this.label26.TabIndex = 28;
@@ -975,7 +970,7 @@
             this.label25.BackColor = System.Drawing.Color.Transparent;
             this.label25.Font = new System.Drawing.Font("Segoe UI Black", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label25.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label25.Location = new System.Drawing.Point(252, 437);
+            this.label25.Location = new System.Drawing.Point(301, 111);
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(760, 112);
             this.label25.TabIndex = 27;
