@@ -103,6 +103,46 @@ namespace Ischuk.lab8.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap gorod_solntse_zakat_143693_3840x2160 {
+            get {
+                object obj = ResourceManager.GetObject("gorod_solntse_zakat_143693_3840x2160", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap gorod_vektor_art_142453_3840x2160 {
+            get {
+                object obj = ResourceManager.GetObject("gorod_vektor_art_142453_3840x2160", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap gorod_vektor_panorama_119914_3840x2160 {
+            get {
+                object obj = ResourceManager.GetObject("gorod_vektor_panorama_119914_3840x2160", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap imgonline_com_ua_Mirror_r5YWRHgVAjZw1mX {
+            get {
+                object obj = ResourceManager.GetObject("imgonline_com_ua_Mirror_r5YWRHgVAjZw1mX", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap MineRes2 {
             get {
                 object obj = ResourceManager.GetObject("MineRes2", resourceCulture);
@@ -236,6 +276,16 @@ namespace Ischuk.lab8.Properties {
         internal static System.Drawing.Bitmap pngwing_com {
             get {
                 object obj = ResourceManager.GetObject("pngwing.com", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Screenshot_7 {
+            get {
+                object obj = ResourceManager.GetObject("Screenshot_7", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

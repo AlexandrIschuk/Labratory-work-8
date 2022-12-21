@@ -24,7 +24,7 @@ namespace Ischuk.lab8
                     }
             sum = sum1;
         }   
-        public static void Winner(TextBox textBox21)
+        public static void Winner(Label textBox21)
         {
             if (Form1.Mcount == sum/19)
             {
@@ -35,7 +35,7 @@ namespace Ischuk.lab8
         }
         public static bool EndGame = false;
         public static string timeend = "";
-        public static bool GameFunction2( Button[,] S, int n, int m,TextBox  textBox21,Button MinerRestart)
+        public static bool GameFunction2( Button[,] S, int n, int m,Label  textBox21,Button MinerRestart)
 
         {
             string read = "";
