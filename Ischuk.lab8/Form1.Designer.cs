@@ -412,6 +412,7 @@
             this.dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView3.Location = new System.Drawing.Point(43, 372);
             this.dataGridView3.Name = "dataGridView3";
+            this.dataGridView3.ReadOnly = true;
             this.dataGridView3.RowHeadersWidth = 62;
             this.dataGridView3.RowTemplate.Height = 33;
             this.dataGridView3.Size = new System.Drawing.Size(403, 88);
@@ -423,6 +424,7 @@
             this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView2.Location = new System.Drawing.Point(43, 220);
             this.dataGridView2.Name = "dataGridView2";
+            this.dataGridView2.ReadOnly = true;
             this.dataGridView2.RowHeadersWidth = 62;
             this.dataGridView2.RowTemplate.Height = 33;
             this.dataGridView2.Size = new System.Drawing.Size(403, 88);
@@ -434,6 +436,7 @@
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(43, 74);
             this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.ReadOnly = true;
             this.dataGridView1.RowHeadersWidth = 62;
             this.dataGridView1.RowTemplate.Height = 33;
             this.dataGridView1.Size = new System.Drawing.Size(403, 88);
@@ -872,6 +875,7 @@
             this.textBoxString.Location = new System.Drawing.Point(698, 145);
             this.textBoxString.Multiline = true;
             this.textBoxString.Name = "textBoxString";
+            this.textBoxString.ReadOnly = true;
             this.textBoxString.Size = new System.Drawing.Size(360, 343);
             this.textBoxString.TabIndex = 6;
             // 
