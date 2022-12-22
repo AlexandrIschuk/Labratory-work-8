@@ -142,6 +142,7 @@
             // 
             this.Уравнение.BackColor = System.Drawing.Color.DarkSlateBlue;
             this.Уравнение.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Уравнение.BackgroundImage")));
+            this.Уравнение.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.Уравнение.Controls.Add(this.label17);
             this.Уравнение.Controls.Add(this.label5);
             this.Уравнение.Controls.Add(this.label4);
@@ -288,6 +289,7 @@
             // 
             this.Сортировка.BackColor = System.Drawing.SystemColors.Window;
             this.Сортировка.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Сортировка.BackgroundImage")));
+            this.Сортировка.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.Сортировка.Controls.Add(this.label16);
             this.Сортировка.Controls.Add(this.label12);
             this.Сортировка.Controls.Add(this.label11);
@@ -484,6 +486,7 @@
             // 
             this.Игра.BackColor = System.Drawing.SystemColors.Window;
             this.Игра.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Игра.BackgroundImage")));
+            this.Игра.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.Игра.Controls.Add(this.label15);
             this.Игра.Controls.Add(this.label14);
             this.Игра.Controls.Add(this.label13);
@@ -668,7 +671,8 @@
             // 
             // tabPage1
             // 
-            this.tabPage1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tabPage1.BackgroundImage")));
+            this.tabPage1.BackgroundImage = global::Ischuk.lab8.Properties.Resources.material_wallpaper_design_abstract_material_design_colors_4k;
+            this.tabPage1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.tabPage1.Controls.Add(this.label19);
             this.tabPage1.Controls.Add(this.label18);
             this.tabPage1.Controls.Add(this.label1);
@@ -701,7 +705,7 @@
             this.label18.AutoSize = true;
             this.label18.BackColor = System.Drawing.Color.Transparent;
             this.label18.Font = new System.Drawing.Font("Segoe UI Black", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label18.ForeColor = System.Drawing.Color.Red;
+            this.label18.ForeColor = System.Drawing.Color.White;
             this.label18.Location = new System.Drawing.Point(60, 461);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(0, 28);
@@ -760,6 +764,7 @@
             // 
             this.Строки.BackColor = System.Drawing.SystemColors.Window;
             this.Строки.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Строки.BackgroundImage")));
+            this.Строки.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.Строки.Controls.Add(this.label24);
             this.Строки.Controls.Add(this.label23);
             this.Строки.Controls.Add(this.label22);
