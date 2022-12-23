@@ -875,7 +875,6 @@
             this.textBoxString.Location = new System.Drawing.Point(698, 145);
             this.textBoxString.Multiline = true;
             this.textBoxString.Name = "textBoxString";
-            this.textBoxString.ReadOnly = true;
             this.textBoxString.Size = new System.Drawing.Size(360, 343);
             this.textBoxString.TabIndex = 6;
             // 

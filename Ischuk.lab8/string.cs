@@ -66,7 +66,16 @@ namespace Ischuk.lab8
         public static string EqualString(string word, string word1)
         {
             int Count1 = 0;
-            for (int i = 0; i < word.Length; i++)
+            int length = 0;
+            if (word.Length > word1.Length)
+            {
+                length = word1.Length;
+            }
+            else
+            {
+                length = word.Length;
+            }
+            for (int i = 0; i < length; i++)
             {
                 if (word[i] == word1[i])
                 {
