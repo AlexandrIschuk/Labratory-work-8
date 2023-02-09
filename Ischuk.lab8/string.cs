@@ -22,7 +22,7 @@ namespace Ischuk.lab8
         }
         public static string TestString2()
         {
-            string test1 = "Быть может, вся Природа – различность голос?";
+            string test1 = "Быть может, вся Природа – различность голосов?";
             return test1;
         }
 
